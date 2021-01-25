@@ -1,0 +1,55 @@
+/* CSS DOCUMENT */
+
+body{
+	background-color: rgb(58, 78, 85); /*54, 70, 77*/
+	color: rgb(245, 245, 245);
+	text-transform: lowercase;
+	font-family: sans-serif;
+	margin: 0;
+}
+
+/*Koberl at Blue*/
+h1{
+	font-size: 3em;
+	font-family: serif;
+	margin: 0.5em 0em 0em 3%;
+	color:rgb(247, 203, 136);
+}
+
+/*main menu*/
+h2{
+	margin: 0em 0em 1.5em 3%;
+}
+
+/*food type*/
+h3{
+	margin: 0em 60% 0em 7%;
+	color: rgb(64, 64, 64);
+	background-color: rgb(247, 203, 136);
+	padding: 0.25em 0em 0.25em 1%;
+}
+
+/*food item*/
+h4{
+	margin-bottom: 0em;
+}
+
+p{
+	margin: 0.5em 0.5em 0.5em 0em;
+}
+
+.price{
+	margin-bottom: 3em;
+	font-style: italic;
+}
+
+/*all unordered lists*/
+ul{
+	padding: 0;
+	margin-left: 8%;
+}
+
+/*all list items*/
+li{
+	list-style: none
+}
