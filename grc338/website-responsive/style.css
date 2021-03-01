@@ -1,0 +1,178 @@
+/*CSS DOCUMENT*/
+
+img{
+    width: 100%;
+    padding: 1em 0em 0.5em 0em;
+}
+
+.logo{
+	width: 40%;
+	margin-left: 1.5em;
+}
+
+figure{
+	margin: 1em 0em 2em 0em;
+	padding: 0;
+}
+
+figcaption{
+	text-align: center;
+	color: rgb(120, 120, 120);
+	margin: 0.5em;
+}
+
+body{
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul{
+    padding: 0;
+    margin-left: 1.5em;
+    word-spacing: 0.6em;
+}
+
+nav ul li{
+    display: inline;
+    list-style-type: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: .9em;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+}
+
+nav ul li a{
+    color: rgb(181, 150, 105);
+    text-decoration: none;
+    padding: 0.2em;
+}
+
+nav ul li a:hover{
+    color: rgb(191, 124, 31);
+}
+
+main, article{
+	margin: 2em;
+}
+
+h1{
+	margin: 0;
+	text-transform: uppercase;
+}
+
+.section{
+	border-bottom: 1px solid rgb(112, 112, 112);
+	padding-bottom: 0.5em;
+	text-transform: uppercase;
+}
+
+.first{
+	margin: 2em 0em 1em 0em;
+}
+
+/*food type*/
+h3{
+	margin: 4em 0em 1em 0em;
+	text-transform: uppercase;
+	color: rgb(191, 124, 31)
+}
+
+/*food name*/
+h4{
+	margin: 0;
+	color: rgb(74, 74, 74);
+}
+
+/*food description*/
+p{
+	margin: 0.5em 0em 0.5em 0em;
+	color: rgb(110, 107, 103);
+	line-height: 1.3em;
+}
+
+.price{
+	margin-bottom: 2.5em;
+}
+
+.location{
+	margin: 0em 0em 0.8em 0em;
+	text-transform: none;
+	font-size: 1.3em;
+}
+
+.hours{
+	margin: 2em 0em 0em 0em;
+}
+
+ul{
+	padding: 0;
+	margin: 0;
+}
+
+li{
+	list-style: none;
+}
+
+footer{
+	color: rgb(255, 255, 255);
+	font-size: 0.8em;
+	font-family: sans-serif;
+	line-height: 1.5em;
+	margin: 4em 0em 0em 0em;
+	padding: 1.5em 0em 1em 2em;
+	background-color: rgb(191, 124, 31);
+}
+
+h5{
+	margin: 0;
+	font-size: 1.2em;
+}
+
+.email{
+	color: rgb(255, 255, 255);
+}
+
+.email:hover{
+	color: rgb(247, 196, 124);
+}
+
+.copyright{
+	margin-top: 2em;
+	font-size: 0.8em;
+	color: rgb(255, 255, 255);
+}
+
+footer h3, footer p{
+	margin: 0;
+}
+
+@media screen and (min-width: 60em){
+	.logo{
+		width: 25%;
+		margin-left: 4.5%;
+	}
+
+	nav ul{
+	    margin: 0.5em 0em 3em 5%;
+	    word-spacing: 1em;
+	}
+
+	nav ul li{
+	    font-size: 1em;
+	}
+
+	main, article{
+		max-width: 50em;
+		margin: auto;
+	}
+
+	h1{
+		font-size: 2.5em;
+	}
+
+	footer{
+		padding: 2em 0em 1.5em 5%;
+	}
+}
